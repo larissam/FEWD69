@@ -1,0 +1,48 @@
+body {
+	background: lightpink;
+	color: black;
+}
+h1 {
+	font-family: 'Staatliches', serif;
+	font-size: 50px;
+	line-height: 1.5;
+	color: purple;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+h2 {
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+img {
+	width: 500px;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+p {
+	font-family: 'Poppins', serif;
+	font-size: 30px;
+	margin: 50px;
+}
+a {
+	font-weight: bold;
+	color: purple; 
+	font-size: 25px;
+	margin: 25px
+}
+li {font-stretch: 'Poppins', serif;
+    font-size: 30px;
+    margin: 50px;
+}
+a:hover {
+	color: red;
+}
+
+li:hover {
+	color: blue;
+}

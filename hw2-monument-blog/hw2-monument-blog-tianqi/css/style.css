@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: #44545E;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Header*/
+header h1 a {
+	font-size: 37px;
+	color: #44545E;
+	vertical-align: middle;
+}
+
+header {
+	text-align: center;
+	background-image: url("../images/blog_header_bg.jpg");
+	background-size: cover;
+	height: 250px;
+	text-decoration: none;
+	vertical-align: middle;
+	line-height: 250px
+}
+/*Header*/
+
+
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Raleweay', sans-serif;
+}
+
+
+/*Flex box to divide content into article section and aside section*/
+.container {
+	display: flex;
+	margin: 0 -5px;
+}
+
+aside {
+	justify-content: flex-start;
+	padding-right: 20px;
+	padding-left: 0px;
+	border: 0px;
+	flex-basis: 0;
+	margin: 0 5px;
+}
+
+article {
+	padding-left: 25px;
+	padding-right: 0px;
+	width: 75%;
+	flex-basis: 0;
+	border: 0px;
+	margin: 0 5px;
+}
+
+section {
+	padding-top: 30px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border: 0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom: 30px;
+}
+/* Question: I am attempting to reduce the space between the two flex items (article & aside),
+but it did not work. I tried setting the "margin", "padding", "border", "justify-content",
+"flex-basis", but none worked. Could you please let me know what's the best way to do this? */
+
+
+/*Navigation Bar*/
+nav a {
+	font-size: 16px;
+	color: #7B98AA;
+	text-decoration: none;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+nav {
+	padding-top: 15px;
+	text-align: center;
+}
+/*Navigation Bar*/
+
+
+h1 {
+	font-size: 37px;
+	vertical-align: middle;
+}
+
+p {
+	text-transform: none;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+}
+
+
+/*Article*/
+section article h3 {
+	font-size: 18px;
+}
+
+section article h2 {
+	font-size: 23px;
+}
+/*Article*/
+
+
+/*Aside*/
+section aside h3 {
+	font-size: 18px;
+}
+
+section aside ul a {
+	text-transform: none;
+	font-size: 15px;
+	color: #44545E;
+	font-family: 'Raleway', sans-serif;
+}
+/*Aside*/
+
+
+/*Footer*/
+footer {
+	text-align: center;
+	background-color: #CDF3F6;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin: 0px;
+	border: 0px;
+}
+
+footer a {
+	font-size: 15px;
+	padding-left: 4px;
+}
+
+footer p {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+}
+
+footer p a {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+}
+/*Footer*/
+
+

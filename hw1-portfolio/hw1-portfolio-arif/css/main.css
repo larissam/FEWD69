@@ -1,0 +1,67 @@
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 1px;
+	color: purple;
+}
+
+hr {
+	border: solid;
+}
+h2 {
+	text-align: center;
+	font-size: 25px;
+}
+
+h3 {
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	font-size: 20px;
+}
+
+p {
+	font-size: 17px;
+	
+}
+
+img {
+	display: block;
+	width: 500px;
+	margin: auto;
+}
+
+
+img:hover {
+
+	opacity: 0;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #F15B31;
+}
+
+li {
+	font-family: sans-serif;
+}
+
+div {
+	width: 500px;
+	margin: auto;
+}
+
+nav {
+
+	text-align: center;
+}
+
+#overlay {
+  position: absolute; /* Sit on top of the page content */
+}
+
+body {
+margin: 50px 110px 50px 110px;
+	background-image: linear-gradient(to right, #ffcc16 , #c7a1d3);
+}

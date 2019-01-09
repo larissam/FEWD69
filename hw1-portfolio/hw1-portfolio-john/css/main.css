@@ -1,0 +1,58 @@
+nav {
+	text-align: center;
+	font-family: 'Aleo', serif;
+}
+
+h1 {
+	color: black;
+	font-family: 'Aleo', serif;
+	font-style: italic;
+	text-align: center;
+}
+
+h2 {
+	color: black;
+	font-family: 'Aleo', serif;
+}
+
+h3 {
+	color: black;
+	font-family: 'Aleo', serif;
+}
+
+p {
+	color: black;
+	font-family: 'Aleo', serif;
+}
+
+body {
+	background-color: #7FFFD4;
+}
+
+img {
+  border-radius: 8px;
+  width: 500px;
+}
+
+
+ul{
+  font-family: 'Aleo', serif;
+  list-style: square;
+}
+
+li {
+  font-weight: bold;
+  font-family: 'Aleo', serif;
+}
+
+a {
+  font-weight: bold;
+  color: #FC6454;
+  text-decoration: underline;
+  font-family: 'Aleo', serif;
+ }
+
+a:hover {
+  color: #FFD810;
+}
+

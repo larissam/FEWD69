@@ -1,0 +1,318 @@
+/*Table*/
+table, th, td {
+	border: 5px solid black;
+	border-collapse: collapse;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+}
+
+table tr:nth-child(even) {
+	background-color: #dee8f7;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;	
+}
+
+table tr:nth-child(odd) {
+	background-color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+}
+
+table th {
+	background-color: black;
+	color: white;
+	font-size: 20px;
+}
+
+th, td {
+	padding: 15px;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;	
+}
+
+table tr:nth-child(15) {
+	background-color: #dee8f7;
+}
+
+table tr:nth-child(16) {
+	background-color: #fff;
+}
+
+table tr:nth-child(17) {
+	background-color: #dee8f7;
+}
+
+table tr:nth-child(18) {
+	background-color: #fff;
+}
+
+table tr:nth-child(19) {
+	background-color: #dee8f7;
+}
+
+table tr:nth-child(20) {
+	background-color: #fff;
+}
+
+table tr:nth-child(21) {
+	background-color: #dee8f7;
+}
+
+
+/*Body*/
+body {
+	background-image: url("../img/Free-Download-Plain-Blue-Backgrounds.jpg");
+	background-position: center;
+	background-size: cover;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom:20px;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+}
+
+
+/*Main Heading*/
+h1 {
+	font-family: 'Staatliches', cursive;
+	font-weight: bold;
+}
+
+/*Old Navigation Bar
+nav {
+	font-family: 'Sarabun', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	}
+*/
+
+
+/*Secondary Heading*/
+	h2 {
+		background: rgb(255,130,130);
+		background: -moz-linear-gradient(left,  rgba(255,130,130,1) 0%, rgba(225,120,237,1) 100%);
+		background: -webkit-linear-gradient(left,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+		background: linear-gradient(to right,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+
+/*Paragraph*/
+	p {
+		color: white;
+		font-family: 'Lato', sans-serif;
+		font-size: 20px;
+	}
+
+
+/*Break Line*/
+	hr {
+		overflow: visible; /* For IE */
+		padding: 0;
+		border: none;
+		border-top: medium double #333;
+		color: #333;
+		text-align: center;
+	}
+
+	hr:after {
+		content: "§";
+		display: inline-block;
+		position: relative;
+		top: -0.7em;
+		font-size: 1.5em;
+		padding: 0 0.25em;
+		background: white;
+	}
+
+/*Image Centering*/
+	img.center {
+		display: block;
+		margin: 0 auto;
+	}
+
+
+/*Navigation Button (Top)*/
+	.container{
+		height:100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.btn {
+		margin-top: calc(50% + 25px);
+		position: relative;
+		display: inline-block;
+		width: 277px;
+		height: 50px;
+		font-size: 1em;
+		font-weight: bold;
+		line-height: 60px;
+		text-align: center;
+		text-transform: uppercase;
+		background-color: transparent;
+		cursor: pointer;
+		text-decoration:none;
+		font-family: 'Roboto', sans-serif;
+		font-weight:900;
+		font-size:17px;
+		letter-spacing: 0.045em;
+		font: white;
+	}
+
+	.btn svg {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.btn svg rect {
+		//stroke: #EC0033;
+		stroke-width: 4;
+		stroke-dasharray: 353, 0;
+		stroke-dashoffset: 0;
+		-webkit-transition: all 600ms ease;
+		transition: all 600ms ease;
+	}
+
+	.btn span{
+		background: rgb(255,130,130);
+		background: -moz-linear-gradient(left,  rgba(255,130,130,1) 0%, rgba(225,120,237,1) 100%);
+		background: -webkit-linear-gradient(left,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+		background: linear-gradient(to right,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.btn:hover svg rect {
+		stroke-width: 4;
+		stroke-dasharray: 196, 543;
+		stroke-dashoffset: 437;
+	}
+
+
+/*Navigation Button (Bottom)*/
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px auto;
+  width: 250px;
+  height: 50px;
+  background: black;
+  border-radius: 75px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  transition: 1s box-shadow;
+}
+
+.test:hover {
+  box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+}
+
+.test:hover:before, .test:hover:after {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  background: #FDA8CF;
+  border-radius: 75px;
+  z-index: -1;
+  animation: 1s clockwise infinite;
+}
+
+.test:hover:after {
+  background: #F3CE5E;
+  animation: 2s counterclockwise infinite;
+}
+
+@keyframes clockwise {
+  0% {
+    top: -5px;
+    left: 0;
+  }
+  12% {
+    top: -2px;
+    left: 2px;
+  }
+  25% {
+    top: 0;
+    left: 5px;    
+  }
+  37% {
+    top: 2px;
+    left: 2px;
+  }
+  50% {
+    top: 5px;
+    left: 0;    
+  }
+  62% {
+    top: 2px;
+    left: -2px;
+  }
+  75% {
+    top: 0;
+    left: -5px;
+  }
+  87% {
+    top: -2px;
+    left: -2px;
+  }
+  100% {
+    top: -5px;
+    left: 0;    
+  }
+}
+
+@keyframes counterclockwise {
+  0% {
+    top: -5px;
+    right: 0;
+  }
+  12% {
+    top: -2px;
+    right: 2px;
+  }
+  25% {
+    top: 0;
+    right: 5px;    
+  }
+  37% {
+    top: 2px;
+    right: 2px;
+  }
+  50% {
+    top: 5px;
+    right: 0;    
+  }
+  62% {
+    top: 2px;
+    right: -2px;
+  }
+  75% {
+    top: 0;
+    right: -5px;
+  }
+  87% {
+    top: -2px;
+    right: -2px;
+  }
+  100% {
+    top: -5px;
+    right: 0;    
+  }
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+a {
+	text-decoration: none;
+	color: #44545E;
+	display: inline-block;
+}
+
+nav:hover {
+	background-image: url('../bonus_hover.gif');
+	background-position: 0 0;
+}
+/*Can't seem to get this to work*/
+
+
+nav {
+	font-family: 'Raleway', sans-serif;
+	color: #7B98AA;
+	font-weight: bold;
+	word-spacing: 105px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 20px;
+	letter-spacing: .2em;
+	font-weight: 600;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+article {
+	font-family: 'Lato', sans-serif;
+	font-size: 15pt;
+	font-weight: 400;
+	text-transform: initial;
+	letter-spacing: .02em;
+	color: #44545E;
+}
+
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 37px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 100px;
+	text-decoration: none;
+	background-image: url('../images/blog_header_bg.jpg');
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 23px;
+	text-transform: uppercase;
+	color: #44545E;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	color: #44545E;
+}
+
+
+footer {
+	background-color: #CDF3F6;
+	font-family: 'Raleway', sans-serif;
+	font font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 50px;
+	text-align: center;
+	letter-spacing: .2em;
+}
+
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+	display: block;
+}
+
+.flexcontent {
+	display: inline-flex;
+}
+
+.content {
+	width: 75%;
+	margin: 40px;
+}
+
+
+.about {
+	font-family: 'Raleway', sans-serif;
+	color: #44545E;
+	font-size: 15px;
+	width: 25%;
+  	margin: 40px;
+
+}
+
+.about h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+}

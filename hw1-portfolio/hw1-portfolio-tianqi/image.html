@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+	<head>
+		<meta charset="utf-8">
+		<!-- Webpage Title -->
+		<title>Tianqi Jiang ! My Travel Photos</title>
+		<!-- My CSS Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<!-- External Fonts and Favicon -->
+		<link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link rel="shortcut icon" type="image/png" href="img/TJ.png"/>
+		<link href='https://fonts.googleapis.com/css?family=Lato|Roboto:400,900' rel='stylesheet' type='text/css'>
+
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  margin: 0;
+			  font-family: Arial;
+			}
+
+			.header {
+			  text-align: center;
+			  padding: 32px;
+			}
+
+			.row {
+			  display: -ms-flexbox; /* IE10 */
+			  display: flex;
+			  -ms-flex-wrap: wrap; /* IE10 */
+			  flex-wrap: wrap;
+			  padding: 0 4px;
+			}
+
+			/* Create four equal columns that sits next to each other */
+			.column {
+			  -ms-flex: 25%; /* IE10 */
+			  flex: 25%;
+			  max-width: 25%;
+			  padding: 0 4px;
+			}
+
+			.column img {
+			  margin-top: 8px;
+			  vertical-align: middle;
+			}
+
+			/* Responsive layout - makes a two column-layout instead of four columns */
+			@media screen and (max-width: 800px) {
+			  .column {
+			    -ms-flex: 50%;
+			    flex: 50%;
+			    max-width: 50%;
+			  }
+			}
+
+			/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+			@media screen and (max-width: 600px) {
+			  .column {
+			    -ms-flex: 100%;
+			    flex: 100%;
+			    max-width: 100%;
+			  }
+			}
+		</style>
+	</head>
+<!-- Head -->
+
+<!-- Body -->
+	<body>
+
+<!-- Major Heading -->
+		<h1 style="color: white; text-align: center; font-size: 80px;">Tianqi Jiang</h1>
+<!-- Major Heading -->
+
+<!-- Navigation Button with Hover Effect -->
+		<!-- Divider -->
+		<div class="container">
+			<!-- Link -->
+			<a href="index.html" class="btn">
+			<!-- SVG graphics - scalable vector graphics -->
+			<svg width="277" height="62">
+				<!-- <defs> element is used to store graphical objects that will be used later. To display the objects, one need to reference them with something like <use>. -->				
+				<defs>
+					<!-- The <linearGradient> SVG element lets authors define linear gradients to fill or stroke graphical elements. -->
+					<linearGradient id="grad1">
+						<!-- The <stop> SVG element defines the ramp of colors to use on a gradient, which is a child element to either the <linearGradient> or the <radialGradient> element. -->
+						<stop offset="0%" stop-color="#FF8282"/>
+						<stop offset="100%" stop-color="#E178ED"/>
+					</linearGradient>
+				</defs>
+				<!-- The <rect> element is a basic SVG shape that creates rectangles, defined by their corner's position, their width, and their height. The rectangles may have their corners rounded. -->
+				<rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+			</svg>
+			<!-- <span> is very much like a <div> element, but <div> is a block-level element whereas a <span> is an inline element. -->
+			<span>About Me</span>
+			</a>
+		</div>
+<!-- Navigation Button with Hover Effect -->
+
+<br></br>
+
+
+<!-- Photo Grid -->
+<div class="row">
+	<div class="column">
+		<img src="img/food1.jpg" style="width:100%">
+		<img src="img/food2.jpg" style="width:100%">		
+		<img src="img/food3.jpg" style="width:100%">
+		<img src="img/food5.jpeg" style="width:100%">
+	</div>
+	<div class="column">
+		<img src="img/food6.jpeg" style="width:100%">			
+		<img src="img/food7.jpeg" style="width:100%">	
+		<img src="img/food8.jpeg" style="width:100%">	
+		<img src="img/food9.jpeg" style="width:100%">	
+	</div>
+	<div class="column">
+		<img src="img/landscape1.JPG" style="width:100%">
+		<img src="img/landscape2.jpeg" style="width:100%">
+		<img src="img/landscape3.JPG" style="width:100%">	
+		<img src="img/landscape4.JPG" style="width:100%">	
+	</div>
+	<div class="column">
+		<img src="img/landscape5.JPG" style="width:100%">
+		<img src="img/landscape6.JPG" style="width:100%">
+		<img src="img/chicago.JPG" style="width:100%">
+	</div>
+</div>
+<!-- Photo Grid -->
+
+
+
+<!-- Line Break -->
+		<br></br>
+		<hr></hr>
+<!-- Line Break -->
+
+<!-- Footer -->
+		<a href="https://www.flickr.com/photos/tianqijiang" style="color: white; font-size: 20px; padding-left: 100px; "target="blank">Flickr</a> |
+		<a href="https://www.instagram.com/jiang.tianqi/?hl=en" style="color: white; font-size: 20px; "target="blank">Instagram</a> |
+		<a href="https://www.linkedin.com/in/tianqijiang/" style="color: white; font-size: 20px; "target="blank">LinkedIn</a>
+<!-- Footer -->
+
+
+</body>
+</html>

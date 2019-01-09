@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	font-family: Raleway;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+	text-align: center;
+	color: #44545E;
+	margin: 30px;
+	width: 1400px;
+
+}
+
+h2 {
+	text-align: left;
+}
+h3 {
+	text-align: left;
+	font-family: 18px;
+}
+
+nav {
+	width: 100%;
+}
+
+header {
+	text-align: center;
+	background-image: url(blog_header_bg.jpg);
+	height: 340px;
+	width: 100%;
+	background-size: cover;
+	display: block;
+}
+
+aside {
+	padding: 30px 0px 30px 0px;
+	text-align: left;
+}
+
+nav a {
+	justify-content: space-between;
+	text-decoration: none;
+	color: #7B98aa;
+	padding: 50px;
+}
+
+
+article p{
+	font-family: Lato;
+	text-transform: initial;
+	text-align: justify;
+}
+
+
+aside p{
+	font-family: Lato;
+	text-transform: initial;
+	
+}
+
+footer {
+	background-color: #cff3f7;
+	padding: 30px;
+	font-family: Raleway;
+}
+
+
+header h1 a {
+	padding: 10%;
+	display: inline-block;
+	color: #44545E;
+}
+
+footer a {
+	font-family: Lato;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+footer p a {
+	text-decoration: none;
+	text-transform: initial;
+}
+
+footer a i {
+	font-size: 30px;
+	color: #44545d;
+}
+
+aside ul li a {
+	font-family: Raleway;
+	font-size: 15px;
+	color: #44545E;
+	text-decoration: none;
+	text-transform: initial;
+	font-weight: bold;
+}
