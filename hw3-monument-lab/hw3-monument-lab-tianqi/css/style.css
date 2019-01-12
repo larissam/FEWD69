@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	color: #44545E;
+	text-align: center;
+}
+
+img {
+	height: 400px;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #7B98AA;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+
+nav {
+	display: flex;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	justify-content: center;
+	line-height: 40px;
+
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: white;
+}
+
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+
+ul {
+	padding-left: 80px;
+	color: #7B98AA;
+}
+
+nav a:hover {
+	color: black;
+	transition: 0.3s;
+}
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+
+header {
+	display: flex;
+	padding-top: 130px;
+	flex-direction: column;
+	background-image: url("../images/home_header_bg.jpg");
+	background-size: cover;
+	min-height: 520px;
+	background-attachment: fixed;
+	width: 100%;
+	background-position-x: center;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 37px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+/* ----------------------------------------
+Content
+------------------------------------------- */
+
+h3 {
+	font-size: 23px;
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+
+h4 {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+}
+
+.row {
+	display: flex;
+	padding-bottom: 20px;
+}
+
+.col-1-3 {
+	width: 33.3333%;
+	padding: 0 20px;
+}
+
+.row-pic {
+	display: flex;
+	padding: 0 40px;
+}
+
+.col-1-3-pic {
+	width: 33.3333%;
+	padding: 10px;
+}
+
+#About {
+	background-color: #cff2f6;
+}
+
+#About p {
+	padding: 0 95px;
+}
+
+#About p:last-child {
+	padding: 0 80px 60px;
+}
+
+.row-pic img {
+	width: 100%;
+}
+
+.row-pic img:hover {
+	opacity: 0.7;
+	transition: 0.3s;
+}
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+.button {
+	font-size: 13px;
+	text-transform: uppercase;
+	border: black solid 2px;
+	padding: 8px 20px;
+	font-weight: bold;
+}
+
+.button:hover {
+	background-color: #44545E;
+	color: white;
+	transition: 0.3s;
+}
+
+.button-content {
+	background-color: white;
+}
+
+.button-footer {
+	background-color: #cff2f6;
+}
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+
+input {
+	margin: 20px 20px 30px;
+	padding: 8px 30px;
+	font-weight: bold;
+}
+
+input[placeholder] {
+	text-transform: uppercase;
+}
+
+footer {
+	background-color: #cff2f6;
+	padding: 40px;
+}
+
+footer a {
+	padding: 5px;
+}

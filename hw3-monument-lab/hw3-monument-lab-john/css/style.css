@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+img {
+	height: 400px;
+	max-width: 100%;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+
+body {
+	color: #44545E;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+h1 {
+	font-size: 37px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+nav {
+	background-color: #FFFFFF;
+	padding: 30px;
+}
+
+nav a {
+	color: #7B98AA;
+	margin: 40px;
+}
+
+a {
+	color: #44545E;
+	text-decoration: none;
+}
+
+article {
+	padding: 20px;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: initial;
+}
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+section {
+	padding: 50px;
+}
+
+.about {
+	background-color: #CFF2F6;
+	padding: 50px 150px;
+}
+
+.col {
+	width: 33.333333%;
+}
+
+.gallery img {
+	padding: 10px;
+}
+
+.gallery img:hover {
+	opacity: 0.5;
+
+}
+
+.social_icons a {
+	font-size: 30px;
+	margin: 5px;
+}
+/* ----------------------------------------
+Header
+------------------------------------------- */
+header {
+	background-image: url(../images/home_header_bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+.button {
+	border: 2px solid #44545E;
+	font-size: 13px;
+	padding: 5px 20px;
+}
+
+.button:hover {
+	background-color: #44545E;
+	color: #FFFFFF;
+}
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+footer {
+	background-color: #CFF2F6;
+	padding: 50px;
+}
+
+input {
+	padding: 6px 20px;
+	margin: 30px;
+	text-align: center;
+	border: 0;
+	font-size: 13px;
+	text-transform: uppercase;
+}
