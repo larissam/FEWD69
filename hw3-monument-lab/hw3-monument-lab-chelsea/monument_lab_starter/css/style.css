@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+img {
+	height: 400px;
+	max-width: 100%;
+}
+
+nav {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Raleway";
+	font-size: 16px;
+	color: #7B98AA;
+	padding-bottom: 25px;
+	padding-top: 25px; 
+	font-weight: bold;
+}
+
+a {
+	padding-right: 60px;
+	text-decoration:none;
+}
+
+.section1 {
+	background-image: url("../images/home_header_bg.jpg");
+	background-size: cover;
+	height: 650px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "Raleway";
+	font-size: 23px;
+	font-weight: bold;
+	padding-top: 15px;
+}
+
+header {
+	font-size: 37px;
+	padding-top: 250px;
+	color: #44545E;
+}
+
+
+h2{
+	font-size: 23px;
+	font-family: "Raleway";
+	color: #44545E;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h3{
+	font-size: 18px;
+	font-family: "Raleway";
+	color: #44545E;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 15px;
+}
+
+h4{
+	padding-top: 20px;
+	text-transform: uppercase;
+	font-weight: bold; 
+}
+
+p{
+	font-family: "Lato";
+	font-size: 15px;
+	padding-bottom: 20px;
+}
+
+.img {
+	padding: 10px;
+}
+
+.row1{
+	display: flex;
+}
+
+.column1 {
+	width: 33%;
+	padding: 10px;
+}
+
+.section2 {
+	text-align: center;
+	font-family: "Raleway"
+}
+
+.section3 {
+	text-align: center;
+	background-color: #93dede;
+	margin-top: 15px;
+}
+
+.section4 {
+	text-align: center;
+	padding: 50px;
+}
+
+.section5 {
+	text-align: center;
+	background-color: #93dede;
+}
+
+.row2{ 
+	display: flex;
+}
+.column2 {
+	width: 33%;
+	padding: 10px;
+}
+
+.row3 {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+button {
+	text-align: center;
+	text-transform: uppercase;
+	background-color: transparent;
+	border: black;
+}
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+
+
+
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
