@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: "raleway", sans-serif;
+	letter-spacing: .02em;
+	color: #44545E;
+	margin: 0px;
+	text-align: center;
+}
+
+a {
+    color: #44545E;
+    text-decoration: none;
+}
+
+h1 {
+	font-size: 37px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 23px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 19px;
+}
+
+h3 {
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+p {
+	font-family: "lato";
+	font-size: 15px;
+}
+
+article {
+	padding: 20px;
+}
+
+.row {
+	display: flex;
+	padding: 50px;
+	padding-top: 0px;
+	flex-wrap: wrap;
+}
+
+.gallery {
+	display: flex;
+	padding: 10px;
+	flex-wrap: wrap;
+}
+
+.gallery img:hover {
+    opacity: 0.7;
+ }
+
+.about {
+	background-color: #CDF3F6;
+	padding: 50px 150px;
+}
+
+.visual {
+	padding: 50px;
+}
+
+.photo {
+	height: 400px;
+}
+
+.col-33 {
+	width: 33.333333%;
+	padding: 10px;
+	display: inline-block;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+
+
+
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+nav {
+	color: #7B98AA;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	word-spacing: 50px;
+	padding: 30px;
+	font-weight: 600;
+	position: sticky;
+}
+
+nav a:hover { 
+  color: #FFB6C1;
+}
+
+header {
+	background-image: url('../images/home_header_bg.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	padding: 150px;
+	margin: 0px;
+	margin-bottom: 50px;
+}
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+.button--outline {
+    border: 2px solid #44545E;
+    font-size: 13px;
+    padding: 5px 20px;
+    height: 32px;
+}
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+footer {
+	font-size: 15px;
+	background-color: #CDF3F6;
+	text-align: center;
+	justify-content: center;
+	padding: 50px;
+	letter-spacing: .2em;
+}
+
+input {
+    padding: 6px 20px;
+    margin: 30px;
+    text-align: center;
+    border: 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    height: 32px;
+}
+
+.socialicons img {
+	width: 25px;
+	height: 25px;
+}
